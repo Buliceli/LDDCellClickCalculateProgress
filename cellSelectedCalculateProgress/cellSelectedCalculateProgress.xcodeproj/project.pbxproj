@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D32F9491FDE207A003D3717 /* SixModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D32F9481FDE207A003D3717 /* SixModel.m */; };
 		A073553E1F3C63E50028FFF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A073553D1F3C63E50028FFF8 /* main.m */; };
 		A07355411F3C63E50028FFF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A07355401F3C63E50028FFF8 /* AppDelegate.m */; };
 		A07355441F3C63E50028FFF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A07355431F3C63E50028FFF8 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D32F9471FDE207A003D3717 /* SixModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixModel.h; sourceTree = "<group>"; };
+		3D32F9481FDE207A003D3717 /* SixModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixModel.m; sourceTree = "<group>"; };
 		A07355391F3C63E50028FFF8 /* cellSelectedCalculateProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cellSelectedCalculateProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A073553D1F3C63E50028FFF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A073553F1F3C63E50028FFF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				A07355791F3C64270028FFF8 /* TwoTableController.m */,
 				A073557A1F3C64270028FFF8 /* ThridTableController.h */,
 				A073557B1F3C64270028FFF8 /* ThridTableController.m */,
+				3D32F9471FDE207A003D3717 /* SixModel.h */,
+				3D32F9481FDE207A003D3717 /* SixModel.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -323,6 +328,7 @@
 			files = (
 				A07355441F3C63E50028FFF8 /* ViewController.m in Sources */,
 				A07355411F3C63E50028FFF8 /* AppDelegate.m in Sources */,
+				3D32F9491FDE207A003D3717 /* SixModel.m in Sources */,
 				A073553E1F3C63E50028FFF8 /* main.m in Sources */,
 				A073557D1F3C64270028FFF8 /* TwoTableController.m in Sources */,
 				A073557E1F3C64270028FFF8 /* ThridTableController.m in Sources */,
@@ -559,6 +565,7 @@
 				A07355681F3C63E60028FFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A07355691F3C63E60028FFF8 /* Build configuration list for PBXNativeTarget "cellSelectedCalculateProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +574,7 @@
 				A073556B1F3C63E60028FFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A073556C1F3C63E60028FFF8 /* Build configuration list for PBXNativeTarget "cellSelectedCalculateProgressUITests" */ = {
 			isa = XCConfigurationList;
@@ -575,6 +583,7 @@
 				A073556E1F3C63E60028FFF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
